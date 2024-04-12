@@ -103,7 +103,7 @@ nav .logo{
         justify-content: center;
         align-items: center;
         background-color: #8d99ae;
-        
+        transition: top 2s ease-in-out 1s;
         display: none;
     }
    nav .mainmenu .closemenu{
@@ -146,7 +146,10 @@ nav .logo{
     font-family: serif;
 }
 #pic1{
-    margin-left: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 #hhead2{
     text-align: center;
@@ -163,5 +166,20 @@ nav .logo{
 #k2head{
     text-align: left;
     margin-top: 1em;
+}
+.blue1{
+    margin-top: 2em;
+    color: blue;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border-radius: 25px 25px 25px 25px;
+    margin-left: 20px;
+    padding-top: 40px;
+    padding-left: 25px;
+}
+.blue1 a{
+    text-decoration: none;
+    color: #E72929;
 }
 }
