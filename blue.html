@@ -3,16 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>BLUE SWITCH</title>
 </head>
 <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+    background-color: #7ab3ef;
+    }
     .head1{
-        color: blue;
+        margin-top: 0.3em;
+        color: #1666ba;
         text-align: center;
-        margin-top: 50px;
+    }
+    #bluepic{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .info1{
+        padding-left: 15px;
+        padding-right: 15px;
+        font-family: serif;
+        margin-top: -2em;
+    }
+    .fa-keyboard{
+        margin-top: 0.6em;
+    }
+    .af{
+        display: inline-block;
+        background-color: black;
+        border: 2px solid white;
+        color: white;
+        height: 20px;
+        width: 180px;
+        border-radius: 5px 5px 5px 5px;
+        padding-left: 30px;
+        margin-left: 1em;
+        margin-right: 2em;
+    }
+    #af{
+        display: inline-block;
+        background-color: white;
+        border: 2px solid black;
+        color: black;
+        height: 20px;
+        width: 180px;
+        border-radius: 5px 5px 5px 5px;
+        padding-left: 30px;
     }
 </style>
 <body>
-    <h1 class="head1">BLUE</h1>
+    <h1 class="head1"><i class="fa-regular fa-keyboard fa-2xl" style="color: #1a5fb4;"></i> BLUE SWITCHES</h1>
+    <img src="blue.png" alt="" id="bluepic">
+    <h4 class="info1">Blue switches are the most clicky switches. They are the loudest and have the most tactile feedback. They are the best for typing but not for gaming. They are the best for typing because of the tactile feedback and the clicky sound. The tactile feedback is the bump you feel when you press the key down. The clicky sound is the sound the switch makes when you press the key down! </h4>
+     <h4 class="af">Actuation Force</h4>
+     <h4 id="af">50-60mg</h4>
 </body>
 </html>

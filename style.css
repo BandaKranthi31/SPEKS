@@ -157,8 +157,8 @@ nav .logo{
     font-family: serif;
 }
 .k1head{
-   font-family: monospace;
-   font-size: 4em;
+   font-family:bold;
+   font-size: 3em;
    color: var(--maincolor);
    text-align: center;
    margin-top: 2em;
