@@ -172,7 +172,7 @@ nav .logo{
     color: blue;
     height: 100px;
     width: 100px;
-    background-color: black;
+    background-color: #7BC9FF;
     border-radius: 25px 25px 25px 25px;
     margin-left: 20px;
     padding-top: 40px;
@@ -180,6 +180,13 @@ nav .logo{
 }
 .blue1 a{
     text-decoration: none;
-    color: #E72929;
+    color: blue;
+}
+.blue1:hover{
+    color: #7BC9FF;
+    background-color: blue ;
+}
+.blue1 a:hover{
+    color: #7BC9FF;
 }
 }
