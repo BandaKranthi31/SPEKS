@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color:#d4a276;
+}
+.head1{
+    margin-top: 0.3em;
+    color: brown;
+    text-align: center;
+}
+#blackpic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.info1{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: serif;
+    margin-top: -2em;
+}
+.fa-keyboard{
+    margin-top: 0.6em;
+}
+.af{
+    display:block;
+    background-color:#8b5e34;
+    border: 2px solid white;
+    color: white;
+    height: 25px;
+    width: 80%;
+    border-radius: 5px 5px 5px 5px;
+    padding-left: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+.ap{
+    display:block;
+    background-color:#6f4518;
+    border: 2px solid white;
+    color: white;
+    height: 25px;
+    width: 80%;
+    border-radius: 5px 5px 5px 5px;
+    padding-left: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+.tact{
+    display:block;
+    background-color: #603808;
+    border: 2px solid white;
+    color: white;
+    height: 25px;
+    width: 80%;
+    border-radius: 5px 5px 5px 5px;
+    padding-left: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+
+}
+.tf{
+    display:block;
+    background-color: #3a2618;
+    border: 2px solid white;
+    color: white;
+    height: 25px;
+    width: 80%;
+    border-radius: 5px 5px 5px 5px;
+    padding-left: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+
+#black2{
+    margin-top: 2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    font-size: 10px;
+}
