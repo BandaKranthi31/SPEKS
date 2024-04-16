@@ -168,6 +168,7 @@ nav .logo{
     margin-top: 1em;
 }
 .blue1{
+    display: inline-block;
     margin-top: 2em;
     color: blue;
     height: 100px;
@@ -188,4 +189,50 @@ nav .logo{
 .blue1 a:hover{
     color: #7BC9FF;
 }
+.black1{
+    display: inline-block;
+    margin-top: 2em;
+    color: black;
+    height: 100px;
+    width: 100px;
+    background-color: #000000;
+    border-radius: 25px 25px 25px 25px;
+    margin-left: 20px;
+    padding-top: 40px;
+    padding-left: 25px;
+}
+.black1 a{
+    text-decoration: none;
+}
+.black1:hover{
+    color: #000000;
+    background-color: black ;
+}
+.black1 a:hover{
+    color: whitesmoke;
+}
+.brown1{
+    display: inline-block;
+    margin-top: 2em;
+    color: #6f1d1b;
+    height: 100px;
+    width: 100px;
+    background-color: #b08968;
+    border-radius: 25px 25px 25px 25px;
+    margin-left: 20px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.brown1 a{
+    text-decoration: none;
+    color: #6f1d1b;
+}
+.brown1:hover{
+    color: #b08968;
+    background-color: #6f1d1b;
+}
+.brown1 a:hover{
+    color: #b08968;
+}
+
 }
