@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color:red;
+}
+.head1{
+    margin-top: 0.3em;
+    color: rgb(59, 22, 22);
+    text-align: center;
+}
+#redpic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.info1{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: serif;
+    margin-top: -2em;
+}
+.fa-keyboard{
+    margin-top: 0.6em;
+}
+.af{
+    display:block;
+    background-color:#ff5c8a;
+    border: 2px solid black;
+    color: black;
+    height: 25px;
+    width: 80%;
+    border-radius: 5px 5px 5px 5px;
+    padding-left: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+.ap{
+    display:block;
+    background-color:#ff477e;
+    border: 2px solid black;
+    color: black;
+    height: 25px;
+    width: 80%;
+    border-radius: 5px 5px 5px 5px;
+    padding-left: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+.tact{
+    display:block;
+    background-color: #ff0a54;
+    border: 2px solid black;
+    color: black;
+    height: 25px;
+    width: 80%;
+    border-radius: 5px 5px 5px 5px;
+    padding-left: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+
+}
+.tf{
+    display:block;
+    background-color: red;
+    border: 2px solid black;
+    color: black;
+    height: 25px;
+    width: 80%;
+    border-radius: 5px 5px 5px 5px;
+    padding-left: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+
+#red2{
+    margin-top: 2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    font-size: 10px;
+}

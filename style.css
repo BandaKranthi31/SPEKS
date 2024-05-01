@@ -33,7 +33,7 @@ nav .mainmenu li a{
 nav .mainmenu li a:hover{
     background-color: var(--secondarycolor);
     color: var(--maincolor);
-    font-size: 4em;
+    font-size: 2em;
 }
 nav .openmenu{
     font-size: 2rem;
@@ -233,6 +233,54 @@ nav .logo{
 }
 .brown1 a:hover{
     color: #b08968;
+}
+.green1{
+    display: inline-block;
+    margin-top: 2em;
+    color: #95d5b2;
+    height: 100px;
+    width: 100px;
+    background-color: #2dc653;
+    border-radius: 25px 25px 25px 25px;
+    margin-left: 20px;
+    padding-top: 40px;
+    padding-left: 25px;
+}
+.green1 a{
+    text-decoration: none;
+    color: green;
+
+}
+.green1:hover{
+    color: #95d5b2;
+    background-color: lightgreen;
+}
+.green1 a:hover{
+    color: whitesmoke;
+}
+.red1{
+    display: inline-block;
+    margin-top: 2em;
+    color: black;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 0, 0, 0.767);
+    border-radius: 25px 25px 25px 25px;
+    margin-left: 20px;
+    padding-top: 40px;
+    padding-left: 35px;
+}
+.red1 a{
+    text-decoration: none;
+    color: black;
+
+}
+.red1:hover{
+    color: black;
+    background-color: rgb(255, 0, 0);
+}
+.red1 a:hover{
+    color: whitesmoke;
 }
 
 }
